@@ -1,5 +1,7 @@
 #! /bin/bash -e
 
-gcc termrush.c -o termrush
+mkdir -p build
 
-./termrush
+gcc termrush.c -o build/termrush
+
+./build/termrush
