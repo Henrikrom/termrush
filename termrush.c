@@ -85,7 +85,7 @@ void print_game(int time_remaining) {
     printf("Wrong answer => 1s time penalty\n");
     
     printf("\n");
-    printf("Remaning time: %d", time_remaining);
+    printf("Remaining time: %d", time_remaining);
     printf("\n");
     printf("Current points: %d", points);
     printf("\n\n");
